@@ -17,6 +17,8 @@ namespace LeaveManagementSys.Web.Data.DBModels
         public string? CurrentLocation { get; set; }
         [DisplayName("Fecha y Hora")]
         public required DateTime CurrentDate { get; set; }
+        [MaxLength (300)]
+        public string? Comments { get; set; }
 
     }
 }
