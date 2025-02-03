@@ -8,7 +8,7 @@ namespace LeaveManagementSys.Web.Data.DBModels
         [Key]
         public int ItenerarioId { get; set; }
 
-        [DisplayName("Usuario")]
+        [DisplayName("Nombre usuario")]
         [MaxLength(10)]
         public required string CurrentUser { get; set; }
 
